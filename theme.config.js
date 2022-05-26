@@ -62,6 +62,20 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Next Mountain.</>,
+  footerText: <>
+    <section id="comments">
+      <h4>
+        <a href="">Comments</a>
+      </h4>
+      <script src="https://utteranc.es/client.js"
+        repo="Yidti/next-mountain-docs"
+        issue-term="pathname"
+        label="comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async />
+    </section>
+    MIT {new Date().getFullYear()} © Next Mountain.
+  </>,
   unstable_faviconGlyph: '🪨',
 }
