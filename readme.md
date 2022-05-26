@@ -1,12 +1,24 @@
-# [Nextra](https://nextra.vercel.app)
+# [Next Mountain](https://next-mountain-docs.vercel.app/)
 
-_Warning: this project is not production ready, API might change without notice._
+_Warning: 登山戶外文件 請斟酌使用_
 
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
+<!-- 
+[![](https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png)](https://github.com/user/repository/subscription) -->
 
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
+**Next Mountain** 是一個登山戶外文件網站，希望大家都能夠平安下山。
 
 ![](/public/demo.png)
+
+
+## 安裝pnpm
+```
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
+## 架設網站
+```
+pnpm install
+pnpn dev
+```
 
 ## Development
 
@@ -14,9 +26,13 @@ The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/
 
 ## Themes
 
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
+-   [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
+-   [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
 
----
+* * *
 
 Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
+
+
+## 參考資訊
+### 台大登山社ptt社版 [<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://www.ptt.cc/bbs/MountainClub/index.html)
